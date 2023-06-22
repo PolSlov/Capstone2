@@ -6,7 +6,7 @@
 body{
     padding: 0%;
     margin: 0%;
-    background-color: #EBFCF8;
+    background-color: #F9E0BB;
 }
 
 p{
@@ -21,9 +21,9 @@ p{
     align-items: center;
 
     height: 30rem;
-    background-color: #FAEF50;
+    background-color: #884A39;
     margin-bottom: 5%;
-    border-bottom: solid #3A148F .5rem;
+    border-bottom: solid #C38154 .5rem;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -40,7 +40,7 @@ p{
 
 .Logo.Name{
     margin: 0px;
-    color: #3A148F;
+    color: #FFC26F;
     width: 52.5rem;
     font-size: 575%;
     font-family: 'Lexend', sans-serif;
@@ -76,7 +76,7 @@ p{
 .wojciech{
     width: 100%;
     border-radius: 50%;
-    border: solid #3A148F .25rem;
+    border: solid #FFC26F .25rem;
 }
 
 
@@ -109,11 +109,11 @@ h2{
     margin: 2.5rem;
     padding: 2%;
     font-size: 2.5rem;
-    background-color: #8D69DB;
+    background-color: #C38154;
     border: none;
     border-radius: .5rem;
     text-decoration: none;
-    color: #DBD14A;
+    color: #FFC26F;
     cursor: pointer;
 }
 
@@ -128,7 +128,7 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border: #3A148F;
+    border: #FFC26F;
     width: 100%;
     gap: 5rem;
 }
@@ -167,7 +167,7 @@ h2{
     margin-left: 5%;
     margin-bottom: 5%;
     border-radius: 50%;
-    border: solid #3A148F .25rem;
+    border: solid #FFC26F .25rem;
 }
 
 
@@ -188,7 +188,7 @@ h2{
     height: 20rem;
     float: right;
     border-radius: 50%;
-    border: solid #3A148F .25rem;
+    border: solid #FFC26F .25rem;
 }
 
 
@@ -212,7 +212,7 @@ h2{
     border-radius: 50%;
     margin-bottom: 3.5%;
     margin-left: 5%;
-    border: solid #3A148F .25rem;
+    border: solid #FFC26F .25rem;
 }
 
 .info{
@@ -234,13 +234,13 @@ h2{
 }
 
 footer{
-    background-color: #FAEF50;
+    background-color: #884A39;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: 20vh;
     gap: 50%;
-    border-top: solid #3A148F .5rem;
+    border-top: solid #C38154 .5rem;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 
@@ -256,6 +256,7 @@ footer>div>img{
 
 footer>.copyright{
     align-self: center;
+    color: #FFC26F;
 }
 
 .goodbye{
