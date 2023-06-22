@@ -1,0 +1,373 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #F9E0BB;
+}
+
+p{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.top.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    height: 30rem;
+    background-color: #884A39;
+    margin-bottom: 5%;
+    border-bottom: solid #C38154 .5rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.Logo{
+    width: 50%;
+    left: 13.5%;
+}
+
+.Logo-Div{
+    justify-content: start;
+}
+
+.Logo.Name{
+    margin: 0px;
+    color: #FFC26F;
+    width: 52.5rem;
+    font-size: 575%;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.Hero{
+    padding: 10%;
+    margin-bottom: 5%;
+}
+
+.my.face>div>h2{
+    font-size: 5rem;
+}
+
+.my.face{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20%   ;
+}
+
+.aboutme-col{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.My.Resume>div>div>h2{
+    font-size: 5rem;
+}
+
+.wojciech{
+    width: 100%;
+    border-radius: 50%;
+    border: solid #FFC26F .25rem;
+}
+
+
+h2{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 5rem;
+}
+
+.my.face>div>p{
+    font-size: 2rem;
+    width: 80%;
+}
+
+.My.Resume{
+    margin: 3.5%;
+}
+
+.My.Resume>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    text-align: center
+}
+
+.Button{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    margin: 2.5rem;
+    padding: 2%;
+    font-size: 2.5rem;
+    background-color: #C38154;
+    border: none;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: #FFC26F;
+    cursor: pointer;
+}
+
+.Summary>div>h2{
+    margin-bottom: 8%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: #FFC26F;
+    width: 100%;
+    gap: 5rem;
+}
+
+.Summary>div>h2{
+    font-size: 5rem;
+}
+
+.work>div>img{
+    width: 20rem;
+    height: 25rem;
+    border-radius: 5%;}
+
+.work>div>p{
+    width: 22rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.Features{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.Features>h2{
+    font-size: 5rem;
+}
+
+.Features>div>.feature.pic{
+    width: 20rem;
+    height: 20rem;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-radius: 50%;
+    border: solid #FFC26F .25rem;
+}
+
+
+.Features>div>p{
+    font-size: 1.5rem;
+    margin-left: 25%;
+    margin-right: 35%;
+    width: 30%;
+}
+
+
+.right{
+    margin-right: 5%;
+}
+
+.image-right>img{
+    width: 20rem;
+    height: 20rem;
+    float: right;
+    border-radius: 50%;
+    border: solid #FFC26F .25rem;
+}
+
+
+.right-word{
+    font-size: 1.5rem;
+    width: 30%;
+    margin-left: 50%;
+}
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact>h2{
+    font-size: 5rem;
+}
+
+.Contact>img{
+    border-radius: 50%;
+    margin-bottom: 3.5%;
+    margin-left: 5%;
+    border: solid #FFC26F .25rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    text-align: center;
+}
+
+.Contact>.info>h3{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3.5rem;
+    
+}
+
+.Contact>.info>p{
+    font-size: 2rem;
+}
+
+footer{
+    background-color: #884A39;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 20vh;
+    gap: 50%;
+    border-top: solid #C38154 .5rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+footer>div{
+    align-self: center;
+}
+
+footer>div>img{
+  width: 35%;
+}
+
+footer>.copyright{
+    align-self: center;
+    color: #FFC26F;
+}
+
+.goodbye{
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+
+    font-size: 3.5rem;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 1300px) {
+
+.top.page{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Logo{
+    width: 50%;
+}
+
+.Logo.Name{
+    font-size: 150%;
+    width: 100%;
+}
+ 
+
+    
+.my.face{
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+
+.wojciech{
+    width: 50%;
+}    
+    
+.aboutme-col{
+    align-items: center;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Features>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Features>.right{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.Features>div>p{
+    font-size: 120%;
+    width: 70%;
+    text-align: center;
+    margin: 0%;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
+}
+
+.image-right{
+    align-self: center;
+    
+}
+
+.right-word{
+    font-size: 120%;
+    width: 70%;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    text-align: center;
+   
+}
+
+.right{
+    margin: 0%;
+}
+
+.Contact>.info>h3{
+    font-size: 2rem;
+}
+
+.Contact>.info>p{
+    font-size: 100%;
+}
+
+
+.goodbye{
+    font-size: 100%;
+    width: 75%;
+    text-align: center;
+}
+
+.copyright{
+    font-size: 75%;
+    width: 60rem;
+}
+
+footer>div>img{
+    width: 100%;
+    margin-left: 20%;
+}
+}
