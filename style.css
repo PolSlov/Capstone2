@@ -19,10 +19,8 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     height: 30rem;
     background-color: #884A39;
-    margin-bottom: 5%;
     border-bottom: solid #C38154 .5rem;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -48,33 +46,39 @@ p{
 }
 
 .Hero{
-    padding: 10%;
-    margin-bottom: 5%;
+    padding: 5%;
 }
 
 .my.face>div>h2{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .my.face{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-items: center;
+    text-align: center;
     gap: 20%   ;
 }
 
 .aboutme-col{
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    
 }
 
+.my.face>div>p{
+    font-size: 2rem;
+    width: 60%;
+}
 .My.Resume>div>div>h2{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .wojciech{
-    width: 100%;
+    width: 70%;
     border-radius: 50%;
     border: solid #FFC26F .25rem;
 }
@@ -84,12 +88,14 @@ h2{
     font-family: 'Lexend', sans-serif;
     font-family: 'Libre Baskerville', serif;
     margin-top: 5rem;
+    font-size: 3rem !important;
 }
 
-.my.face>div>p{
-    font-size: 2rem;
-    width: 80%;
+p{
+    font-size: 1.35rem !important;
 }
+
+
 
 .My.Resume{
     margin: 3.5%;
@@ -99,7 +105,6 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5rem;
     text-align: center
 }
 
@@ -120,7 +125,6 @@ h2{
 .Summary>div>h2{
     margin-bottom: 8%;
     text-align: center;
-    margin-top: 10%;
 }
 
 .work{
@@ -134,7 +138,7 @@ h2{
 }
 
 .Summary>div>h2{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .work>div>img{
@@ -147,7 +151,6 @@ h2{
     font-size: 1.5rem;
     font-weight: 500;
     margin-top: 10%;
-    margin-bottom: 10%;
 }
 
 .Features{
@@ -157,7 +160,7 @@ h2{
 }
 
 .Features>h2{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .Features>div>.feature.pic{
@@ -165,7 +168,6 @@ h2{
     height: 20rem;
     float: left;
     margin-left: 5%;
-    margin-bottom: 5%;
     border-radius: 50%;
     border: solid #FFC26F .25rem;
 }
@@ -205,13 +207,11 @@ h2{
 }
 
 .Contact>h2{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .Contact>img{
     border-radius: 50%;
-    margin-bottom: 3.5%;
-    margin-left: 5%;
     border: solid #FFC26F .25rem;
 }
 
@@ -225,12 +225,12 @@ h2{
 .Contact>.info>h3{
     font-family: 'Lexend', sans-serif;
     font-family: 'Libre Baskerville', serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     
 }
 
 .Contact>.info>p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 footer{
@@ -263,11 +263,23 @@ footer>.copyright{
     font-family: 'Lexend', sans-serif;
     font-family: 'Libre Baskerville', serif;
 
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-bottom: 5%;
 }
 
 @media screen and (max-width: 1300px) {
+
+h2{
+    font-size: 1.5rem !important;
+}
+
+p{
+    font-size: 1rem !important;
+}
+
+h3{
+    font-size: 1rem !important;
+}
 
 .top.page{
     display: flex;
@@ -284,23 +296,40 @@ footer>.copyright{
     width: 100%;
 }
  
-
-    
 .my.face{
     display: flex; 
     flex-direction: column;
     text-align: center;
 }
 
+.my.face>div>p{
+    font-size: 1rem;
+}
+
 .wojciech{
-    width: 50%;
+    width: 30%;
+    margin: 0%;
+    padding: 0%;
 }    
+
+a{
+    font-size: 1rem !important;
+    margin-bottom: 0%;
+}
     
 .aboutme-col{
     align-items: center;
 }
 
+.My.Resume>div>div>h2{
+    margin: 5%;
+}
+
 .work{
+    display: block;
+    gap: 0%;}
+
+.work>div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -327,9 +356,34 @@ footer>.copyright{
     margin-bottom: 2.5%;
 }
 
+.work>div>img{
+    width: 40%;
+    height: 30%;
+    margin-bottom: 2%;
+   
+}
+
+.work>div{
+    align-items: center;
+}
+
+.work>div>p{
+    margin-top: 2%;
+   width: 80%
+}
+
+.Features>div>.feature.pic{
+    width: 8rem;
+    height: 8rem;
+}
+
 .image-right{
     align-self: center;
-    
+}
+
+.image-right>img{
+    width: 8rem;
+    height: 8rem;
 }
 
 .right-word{
@@ -338,8 +392,6 @@ footer>.copyright{
     margin: 0;
     margin-top: 5%;
     margin-bottom: 2.5%;
-    text-align: center;
-   
 }
 
 .right{
